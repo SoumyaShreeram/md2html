@@ -36,7 +36,7 @@ if not extension in valid_extensions:
 with open(mdfile_path, 'r') as mdfile:
     mdtext = mdfile.read()
 
-main_html = md.markdown(mdtext)
+main_html = md.markdown(mdtext, extras=["tables"])
 
 # Creating post-html
 post_html = ''
