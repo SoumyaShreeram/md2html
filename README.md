@@ -13,6 +13,12 @@ The html file will be created in the same path as the input markdown file.
 * modest
 * splendor
 * air
+* avenir-white
+* foghorn
+* markdown1 to markdown10
+* markdown-alts
+* screen
+* swiss
 
 ## Adding new css
 Simply add your css file in the folder and then follow the instructions above.

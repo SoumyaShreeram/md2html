@@ -8,7 +8,6 @@ import sys
 # User input
 mdfile_path = sys.argv[1]
 style = sys.argv[2]
-html_name = sys.argv[3]
 
 # Styles folder (css)
 source_folder = os.getcwd()
@@ -27,6 +26,7 @@ pre_html += '<body>\n'
 # Check validity of extension of markdown file
 valid_extensions = ["md"]
 filename = os.path.basename(mdfile_path)
+html_name = filename.split('.')[0]
 extension = filename.split('.')[1]
 
 if not extension in valid_extensions:
